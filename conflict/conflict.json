@@ -1,9 +1,9 @@
 {
   "title": "Conflict",
   "artist": "Cranky + siromaru",
-  "bpm": 160,
+  "bpm": 159.92,
   "bgColor": ["#3c1361", "#7c5295"],
-  "startTime": 50,
+  "startTime": 45,
   "level": {
     "easy": 1,
     "normal": 3,
