@@ -8,7 +8,7 @@
   "bpm": 150,
   "startTime": 90,
   "level": {
-    "easy": 0,
+    "easy": "",
     "normal": 6,
     "hard": 15
   },
