@@ -95,13 +95,21 @@
   line-height: normal;
 }
 </style>
-<h1 class = "logo">Sparebeat by Harry</h1>
-<input type="checkbox" id="chk">
-<ul class="menu" style="text-align:center;">
-   <a href="index.html" >Home</a>
-   <a href="event/" >Event</a>
-   <a href="https://sparebeat.com/settings" >Settings</a>
+<div class="header">
+    <h1 class = "logo">Sparebeat by Harry</h1>
+    <input type="checkbox" id="chk">
+        <label for="chk" class="show-menu-btn">
+            <i class="fas fa-ellipsis-h"></i>
+        </label>
+            <ul class="menu" style="text-align:center;">
+                  <a href="index.html" >Home</a>
+                  <a href="event/" >Event</a>
+                  <a href="https://sparebeat.com/settings" >Settings</a>
+        <label for="chk" class="hide-menu-btn">
+            <i class="fas fa-times"></i>
+        </label>
 </ul>
+</div>
 </head>
 <body>
 <div class="chartlist" text="black">
@@ -161,6 +169,6 @@
   </tr>
   </table>
  </div>
-<h3 text-align: "center";>All maps are FANMADE, and this "website" is non-profit. For copyright or any issues, please contact via Discord Harry Thái#5640</h3>
+<h3 style="text-align:center;">All maps are FANMADE, and this "website" is non-profit. For copyright or any issues, please contact via Discord Harry Thái#5640</h3>
 </body>
 </html>
