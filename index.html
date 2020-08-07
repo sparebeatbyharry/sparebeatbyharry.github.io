@@ -57,11 +57,6 @@
 .content{
   padding: 0 20px;
 }
-.content img{
-  width: 100%;
-  max-width: 700px;
-  margin: 20px 0;
-}
 .content p{
   text-align: justify;
 }
@@ -74,7 +69,7 @@
     position: fixed;
     width: 100%;
     height: 100vh;
-    background: #333;
+    background: #000;
     right: -100%;
     top: 0;
     text-align: center;
@@ -95,9 +90,19 @@
     right: 0;
   }
 }
-
+.chartlist{
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  right: -100%;
+  top: 0;
+  text-align: center;
+  padding: 80px 0;
+  line-height: normal;
+}
 </style>
 <h1 class = "logo">Sparebeat by Harry</h1>
+<input type="checkbox" id="chk">
 <ul class="menu" style="text-align:center;">
    <a href="index.html" >Home</a>
    <a href="event/" >Event</a>
@@ -107,7 +112,6 @@
 <body>
 <h3>All maps are FANMADE, and this website is non-profit. For copyright or any issues, please contact via Discord Harry Thái#5640</h3>
 <div class="chartlist" text="black">
-    <h4>Danh sách chart</h4>
     <table border="1" width="100%">
   <tr>
     <th>Tên chart và người sáng tác</th>
