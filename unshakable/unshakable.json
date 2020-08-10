@@ -5,12 +5,12 @@
     "#FFFFFF",
     "#000000"
   ],
-  "bpm": 150,
+  "bpm": 250,
   "startTime": 90,
   "level": {
     "easy": "",
     "normal": 6,
-    "hard": 15
+    "hard": 17
   },
   "map": {
     "easy": [
